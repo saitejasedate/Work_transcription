@@ -1,0 +1,100 @@
+new Container(
+                    height: 300.0,
+                    child: new Column(
+                      mainAxisAlignment: MainAxisAlignment.start,
+                      children: <Widget>[
+                        Flexible(
+                          flex: 1,
+                          child: new Container(
+                            height: 90,
+                            width: 1000,
+                            child: new Row(
+                              crossAxisAlignment:
+                                CrossAxisAlignment.start,
+                              children: <Widget>[
+                                Flexible(
+                                  flex: 1, child: CustomButton(("Noise"), onPressed: (){filler("/noise");},),
+                              ),
+                                Flexible(
+                                  flex: 1, child: CustomButton(("Hu"), onPressed: (){filler("/Hu");},),),
+                                Flexible(
+                                  flex: 1, child: CustomButton(("Na"), onPressed: (){filler("/Na");},),),
+                                Flexible(
+                                  flex: 1,
+                                  child: CustomButton(("Nahi"), onPressed: (){filler("/Nahi");},),),
+                                ]),
+                              ),
+                            ),
+                        Flexible(
+                          flex: 1,
+                          child: new Container(
+                            height: 90,
+                            width: 1000,
+                            child: new Row(
+                              crossAxisAlignment:
+                                CrossAxisAlignment.start,
+                              children: <Widget>[
+                                Flexible(
+                                  flex: 1, child: CustomButton(("mm"), onPressed: (){filler("/mm");},),),
+                                Flexible(
+                                  flex: 1,
+                                  child: CustomButton(("hmm"), onPressed: (){filler("/hmm");},),),
+                                Flexible(
+                                  flex: 1,
+                                  child: CustomButton(("aaa"), onPressed: (){filler("/aaa");},),),  
+                                Flexible(
+                                  flex: 1, 
+                                  child: CustomButton(("qw"), onPressed: (){filler("/qw");},),),
+                                ]),
+                              ),
+                            ),
+                        Flexible(
+                          flex: 1,
+                          child: new Container(
+                            height: 90,
+                            width: 1000,
+                            child: new Row(
+                              crossAxisAlignment:
+                                CrossAxisAlignment.start,
+                              children: <Widget>[
+                                Flexible(
+                                  flex: 1, child: CustomButton(("re"), onPressed: (){filler("/re");},)),
+                                Flexible(
+                                  flex: 1,
+                                  child: CustomButton(("uyr"), onPressed: (){filler("/uyr");},)),
+                                Flexible(
+                                  flex: 1,
+                                  child: CustomButton(("kjh"), onPressed: (){filler("/kjh");},),),
+                                Flexible(
+                                  flex: 1, 
+                                  child: CustomButton(("hf"), onPressed: (){filler("/noise");},),),
+                                ]),
+                              ),
+                            ),
+                        Flexible(
+                          flex: 1,
+                          child: new Container(
+                            height: 90,
+                            width: 1000,
+                            child: new Row(
+                              crossAxisAlignment:
+                                CrossAxisAlignment.start,
+                              children: <Widget>[
+                                Flexible(
+                                  flex: 1,
+                                  child: CustomButton(("jhf"), onPressed: (){filler("/jhf");},),),
+                                Flexible(
+                                  flex: 1,
+                                  child: CustomButton(("jre"), onPressed: (){filler("/jre");},),),
+                                Flexible(
+                                  flex: 1, 
+                                  child: CustomButton(("ut"), onPressed: (){filler("/ut");},),),
+                                Flexible(
+                                  flex: 1,
+                                  child: CustomButton(("jhf"), onPressed: (){filler("/jhf");},),),
+                                ]),
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
